@@ -1,0 +1,64 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    color: black;
+}
+ul a{
+    padding: 30px;
+    text-decoration: none;
+color:black;
+    font-size: 20px;
+}
+h1{
+    text-transform: uppercase;
+    width: 400px;
+    font-size: 20px;
+    color: #fff;
+    background-image: linear-gradient(#8d98e3,#854fee);
+    padding-left: 40px;
+    box-sizing: border-box;
+    animation: aagepiche 2s linear infinite;
+    animation-direction: alternate;
+    
+}
+@keyframes aagepiche{
+    from{
+        padding-left: 20px;
+      }
+      to{
+          padding-right: 20px;
+      }
+}
+navbar::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    z-index: -1;
+    opacity: 0.5;
+}
+.left img{
+    height:400px;
+}
+.mid img{ 
+    height: 400px;
+  }
+ .home{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }    
+ 
